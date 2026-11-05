@@ -4,6 +4,7 @@ import PageLayout from "../components/layout/PageLayout";
 import Overview from "../pages/Overview";
 import TrendLibrary from "../pages/TrendLibrary";
 import FeaturePage from "../pages/FeaturePage";
+import MemeStudio from "../pages/MemeStudio";
 
 export default function AppRouter() {
   return (
@@ -12,15 +13,8 @@ export default function AppRouter() {
         <Route element={<PageLayout />}>
           <Route index element={<Overview />} />
           <Route path="trends" element={<TrendLibrary />} />
-          <Route
-            path="studio"
-            element={
-              <FeaturePage
-                title="Meme Studio"
-                description="Create original memes with AI-powered Hinglish captions."
-              />
-            }
-          />
+          <Route path="studio" element={<MemeStudio />} />
+            
           <Route
             path="queue"
             element={
