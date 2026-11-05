@@ -1,0 +1,28 @@
+
+:root {
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+
+  color-scheme: dark;
+
+  --bg: #0c0c10;
+  --surface: #131319;
+  --surface-raised: #191921;
+  --surface-hover: #20202a;
+
+  --border: rgba(255, 255, 255, 0.075);
+  --border-strong: rgba(255, 255, 255, 0.12);
+
+  --text: #f5f4fa;
+  --muted: #92919f;
+  --subtle: #656472;
+
+  --accent: #a78bfa;
+  --accent-strong: #8b5cf6;
+  --accent-soft: rgba(139, 92, 246, 0.13);
+
+  --success: #4ade80;
+  --danger: #fb7185;
+
+  --sidebar-width: 248px;
+  --radius: 14px;
+}
